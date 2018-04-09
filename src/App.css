@@ -1,5 +1,7 @@
 html, body, #App, .App {
   text-align: center;
+  background-image: url('./bg.jpg');
+  background-size: contain;
 }
 
 .My-header {
@@ -10,13 +12,11 @@ html, body, #App, .App {
 
 .My-Content {
   height: 650px;
-  background-color: rgb(73, 48, 69);
   padding-left: 325px;
   padding-right: 325px;
 }
 
 .My-TwitterContent {
-  background-color: rgb(73, 48, 69);
   padding-left: 325px;
   padding-right: 325px;
   padding-bottom: 50px;
